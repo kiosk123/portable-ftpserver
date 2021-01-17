@@ -52,10 +52,10 @@ netstat -ntlp | grep 33333
 
 ```
 userid='user'				#사용자계정
-userpass='userpass'			#사용자비번
-homedir='/home/user'		#홈디렉터리
+userpass='userpass'	#사용자비번
+homedir='/home/user'#홈디렉터리
 blocking=True				#블로킹여부
-perm='elradfmw'				#퍼미션
+perm='elradfmw'			#퍼미션
 port=33333					#포트
 uselog=True					#로그사용여부
 logpath='log/ftpserver.log'	#로그를 기록할 파일경로
