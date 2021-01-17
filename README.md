@@ -51,15 +51,15 @@ netstat -ntlp | grep 33333
 ### ftp서버의 설정값은 config.py에서 수정
 
 ```
-userid='user'				#사용자계정
-userpass='userpass'	#사용자비번
-homedir='/home/user'#홈디렉터리
-blocking=True				#블로킹여부
-perm='elradfmw'			#퍼미션
-port=33333					#포트
-uselog=True					#로그사용여부
-logpath='log/ftpserver.log'	#로그를 기록할 파일경로
-loglevel=INFO				#로그레벨 설정
+userid='user'           #사용자계정
+userpass='userpass'     #사용자비번
+homedir='/home/user'    #홈디렉터리
+blocking=True	          #블로킹여부
+perm='elradfmw'         #퍼미션
+port=33333              #포트
+uselog=True             #로그사용여부
+logpath='log/ftpserver.log'  #로그를 기록할 파일경로
+loglevel=INFO	          #로그레벨 설정
 ```
 
 ### 크론탭에 재부팅시 실행되도록 설정
