@@ -36,7 +36,7 @@ chmod +x stop.sh
 ps -ef | grep python
 
 # 네트워크 포트 할당여부 확인
-netstat -ntlp | grep 33333
+netstat -ntlp | grep <포트번호>
 
 ```
 
